@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "fl-bricks",
+  "builds": [
+      { "src": "*.js", "use": "@now/node" }
+  ],
+  "env": {
+    "API_KEY": "@api_key",
+    "CONFIRMATION_TOKEN": "@confirmation_token"
+  }
+}

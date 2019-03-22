@@ -1,0 +1,26 @@
+{
+  "name": "fl-bricks-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwld/fl-bricks-sample.git"
+  },
+  "author": "shwld",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shwld/fl-bricks-sample/issues"
+  },
+  "homepage": "https://github.com/shwld/fl-bricks-sample#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "micro": "^9.3.3",
+    "micro-redirect": "^1.0.0",
+    "now-env": "^3.1.0"
+  },
+  "devDependencies": {}
+}

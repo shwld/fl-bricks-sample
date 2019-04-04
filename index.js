@@ -12,8 +12,8 @@ module.exports = async (req, res) => {
   })
   const location = await client.post('/contents/tokens', {
     "content_id": "eafd96f6-0c97-432a-a677-16dc306004ed",
-    "exit_url": "https://shwld.net",
-    "continuation_url": "https://shwld.net"
+    "exit_url": "https://qiita.com/shwld/items/23b1105911e6578c1080",
+    "continuation_url": "https://qiita.com/shwld/items/23b1105911e6578c1080"
   }).then(response => {
     const { data } = response.data
     return data.presigned_url
